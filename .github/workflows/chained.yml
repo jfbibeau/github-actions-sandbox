@@ -1,0 +1,8 @@
+name: chained
+on:
+  workflow_run:
+    workflows: ["Manual workflow"]
+    branches: ["master"]
+    types: 
+      - completed
+      - requested

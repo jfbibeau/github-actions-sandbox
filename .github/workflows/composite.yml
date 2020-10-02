@@ -1,5 +1,5 @@
 on: [push]
-
+name: "Composite"
 jobs:
   hello_world_job:
     runs-on: self-hosted
